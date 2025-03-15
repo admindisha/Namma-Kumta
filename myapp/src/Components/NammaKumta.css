@@ -1,63 +1,70 @@
 .header {
-    position: fixed; 
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid rgb(224, 224, 224);
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 4px;
-    padding: 10px 20px;
-}
-.logo-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  h1{
-    font-size: 20px;
-    font-weight: lighter;
-    font-family: Roboto;
-  }
-  .icons{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding-left: 910px;
-  }
-  .bell-icon {
-    display: flex;
-    font-size: 24px; 
-    color: black;
-    cursor: pointer;
-}
-.user-icon{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
   display: flex;
-  font-size: 24px; 
-    color: black;
-    cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(224, 224, 224);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 4px;
+  padding: 10px 20px;
 }
 
-.global-icon{
+.logo-container {
   display: flex;
-  font-size: 24px; 
-    color: black;
-    cursor: pointer;
+  align-items: center;
 }
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: Roboto;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 910px;
+}
+
+.bell-icon {
+  display: flex;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+}
+
+.user-icon {
+  display: flex;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+}
+
+.global-icon {
+  display: flex;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+}
+
 .search-bar {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 80px 20px 20px;
 }
+
 .search-container {
   display: flex;
   align-items: center;
@@ -69,8 +76,9 @@
   width: 80%;
   max-width: 600px;
   border: 1px solid black;
-  height:20px ;
+  height: 20px;
 }
+
 .search-container input {
   border: none;
   outline: none;
@@ -79,248 +87,282 @@
   font-size: 16px;
   font-weight: bold;
 }
-.search-icon{
+
+.search-icon {
   font-size: 20px;
   color: gray;
-  padding-right:10px;
+  padding-right: 10px;
 }
+
 .mic-icon {
   font-size: 20px;
   color: gray;
   padding-left: 10px;
 }
-.boxes{
+
+.boxes {
   display: flex;
   flex-direction: column;
   gap: 15px;
   padding: 20px;
 }
-.top-row{
+
+.top-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
 }
-.bottom-row{
+
+.bottom-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  padding : 9px;
+  padding: 9px;
   padding-left: 4px;
   overflow-x: auto;
   gap: 15px;
 }
-.box1{
+
+.box1 {
   position: relative;
   justify-content: center;
   height: 100px;
   width: 110px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://pics.craiyon.com/2024-09-06/QDWqBYpMTZ-vJVFdzuN7GA.webp");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), url("https://pics.craiyon.com/2024-09-06/QDWqBYpMTZ-vJVFdzuN7GA.webp");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.box1:hover{
+
+.box1:hover {
   transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.box2{
+
+.box2 {
   position: relative;
   justify-content: center;
   height: 100px;
   width: 110px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://cbin.b-cdn.net/img/GO/Government-of-India01_9CFDJ_800x582.jpeg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), url("https://cbin.b-cdn.net/img/GO/Government-of-India01_9CFDJ_800x582.jpeg");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.box2:hover{
+
+.box2:hover {
   transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.box3{
+
+.box3 {
   position: relative;
   justify-content: center;
   height: 100px;
   width: 110px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), url("https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.box3:hover{
+
+.box3:hover {
   transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.box4{
+
+.box4 {
   position: relative;
   justify-content: center;
   height: 100px;
   width: 110px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://t4.ftcdn.net/jpg/00/61/06/27/360_F_61062796_NF87GPnWV0fQ2LhoYNlyjev0PocRwZj9.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), url("https://t4.ftcdn.net/jpg/00/61/06/27/360_F_61062796_NF87GPnWV0fQ2LhoYNlyjev0PocRwZj9.jpg");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.box4:hover{
+
+.box4:hover {
   transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.box5{
+
+.box5 {
   position: relative;
   justify-content: center;
   height: 100px;
   width: 110px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), url("https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&w=600");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.box5:hover{
+
+.box5:hover {
   transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.box6{
+
+.box6 {
   position: relative;
   justify-content: center;
   height: 100px;
   width: 110px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://images.otstatic.com/prod/24065351/1/large.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), url("https://images.otstatic.com/prod/24065351/1/large.jpg");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.box6:hover{
+
+.box6:hover {
   transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.box7{
+
+.box7 {
   position: relative;
   justify-content: center;
   height: 100px;
   width: 110px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://img.freepik.com/premium-photo/car-rental-k%E2%80%A6-hand-rent-car-from-rental-agency_294383-9193.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), url("https://img.freepik.com/premium-photo/car-rental-k%E2%80%A6-hand-rent-car-from-rental-agency_294383-9193.jpg");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.box7:hover{
+
+.box7:hover {
   transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.box8{
+
+.box8 {
   position: relative;
   justify-content: center;
   height: 100px;
   width: 100px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://i.pinimg.com/236x/86/04/60/8604607fbce1a7515824ada352bdbd51.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), url("https://i.pinimg.com/236x/86/04/60/8604607fbce1a7515824ada352bdbd51.jpg");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.box8:hover{
+
+.box8:hover {
   transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.box9{
+
+.box9 {
   position: relative;
   justify-content: center;
   height: 100px;
   width: 100px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://cdn.pixabay.com/photo/2020/11/20/17/15/local-store-5762254_640.png");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), url("https://cdn.pixabay.com/photo/2020/11/20/17/15/local-store-5762254_640.png");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.box9:hover{
+
+.box9:hover {
   transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.box10{
+
+.box10 {
   position: relative;
   justify-content: center;
   height: 100px;
   width: 100px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://blog.renovationfind.com/wp-content/uploads/2023/12/Handyman-Services-800x450-2.jpg.avif");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), url("https://blog.renovationfind.com/wp-content/uploads/2023/12/Handyman-Services-800x450-2.jpg.avif");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.box10:hover{
+
+.box10:hover {
   transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.box11{
+
+.box11 {
   position: relative;
   justify-content: center;
   height: 100px;
   width: 110px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://media.istockphoto.com/id/498429644/vector/empty-red-box-with-in-case-of-emergency.jpg?s=612x612&w=0&k=20&c=MADP-BKUiwEHcm959qrO1et81GU9FwskpAk0ALniXxA=");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), url("https://media.istockphoto.com/id/498429644/vector/empty-red-box-with-in-case-of-emergency.jpg?s=612x612&w=0&k=20&c=MADP-BKUiwEHcm959qrO1et81GU9FwskpAk0ALniXxA=");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.box11:hover{
+
+.box11:hover {
   transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.box12{
+
+.box12 {
   position: relative;
   justify-content: center;
   height: 100px;
   width: 110px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://img.freepik.com/premium-photo/schoolboys-near-school-building-india_78361-13841.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), url("https://img.freepik.com/premium-photo/schoolboys-near-school-building-india_78361-13841.jpg");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.box12:hover{
+
+.box12:hover {
   transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.box13{
+
+.box13 {
   position: relative;
   justify-content: center;
   height: 100px;
   width: 100px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://media.istockphoto.com/id/1648171369/photo/yakshagana-artist-showing-happiness.jpg?b=1&s=612x612&w=0&k=20&c=mh9VdX2Kc9mCLWLkCv5k16pgTcaJnsfVwP4QK9nS8Ek=");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), url("https://media.istockphoto.com/id/1648171369/photo/yakshagana-artist-showing-happiness.jpg?b=1&s=612x612&w=0&k=20&c=mh9VdX2Kc9mCLWLkCv5k16pgTcaJnsfVwP4QK9nS8Ek=");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.box13:hover{
+
+.box13:hover {
   transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.box14{
+
+.box14 {
   position: relative;
   justify-content: center;
   height: 100px;
   width: 100px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://media.istockphoto.com/id/2002620668/photo/female-runner-in-a-park-stock-photo.jpg?b=1&s=612x612&w=0&k=20&c=fKpqpuW7gGl0lZTyQknr-e9TDL2-M3rfOXsNu9hSowI=");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%), url("https://media.istockphoto.com/id/2002620668/photo/female-runner-in-a-park-stock-photo.jpg?b=1&s=612x612&w=0&k=20&c=fKpqpuW7gGl0lZTyQknr-e9TDL2-M3rfOXsNu9hSowI=");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.box14:hover{
+
+.box14:hover {
   transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.box15{
+
+.box15 {
   position: flex;
   justify-content: center;
   height: 100px;
@@ -330,10 +372,12 @@
   opacity: 65%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.box15:hover{
+
+.box15:hover {
   transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
+
 .box16 {
   display: flex;
   justify-content: center;
@@ -346,11 +390,13 @@
   margin-left: 30px;
   margin-top: 25px;
 }
-.dots{
+
+.dots {
   padding-top: 15px;
   color: white;
 }
-.catogary-title{
+
+.catogary-title {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -361,4 +407,67 @@
   text-align: center;
   width: 100%;
   z-index: 2;
+}
+@media (max-width: 768px) {
+  .footer-section {
+      padding: 8px 0;
+  }
+}
+.footer-section{
+  position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fffc;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    z-index: 1000;
+    box-shadow: 0 -2px 10px #0000001a;
+    padding: 10px 0;
+    transition: transform .3s ease-in-out;
+}
+
+.footer-section nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-item{
+  flex: 1;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.footer-item:hover{
+  color: #007bff;
+}
+.Home{
+  margin-top: 5px;
+  font-size: 12px;
+}
+.Home-icon{
+  font-size: 24px;
+}
+.Search{
+  margin-top: 5px;
+  font-size: 12px;
+}
+.Search-icon{
+  font-size: 24px;
+}
+.addjoin{
+  margin-top: 5px;
+  font-size: 12px;
+}
+.addjoin-icon{
+  font-size: 24px;
+}
+.alerts{
+  margin-top: 5px;
+  font-size: 12px;
+}
+.alerts-icon{
+  font-size: 24px;
 }

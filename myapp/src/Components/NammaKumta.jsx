@@ -6,10 +6,10 @@ import { AiOutlineGlobal } from "react-icons/ai";
 import { IoIosSearch } from "react-icons/io";
 import { IoMicOutline } from "react-icons/io5";
 import { HiOutlineDotsHorizontal } from "react-icons/hi";
-
-
-
-
+import { FiHome} from "react-icons/fi";
+import { IoSearchSharp } from "react-icons/io5";
+import { FiPlusCircle } from "react-icons/fi";
+import { AiOutlineBulb } from "react-icons/ai";
 const NammaKumta = () => {
     return (
         <>
@@ -58,33 +58,54 @@ const NammaKumta = () => {
                         <div className="catogary-title">Wedding planning</div>
                     </div>
                     <div className="box9">
-                    <div className="catogary-title">Shops</div>
+                        <div className="catogary-title">Shops</div>
                     </div>
                     <div className="box10">
-                    <div className="catogary-title">services</div>
+                        <div className="catogary-title">services</div>
                     </div>
                 </div>
                 <div className="bottom-row">
                     <div className="box11">
-                    <div className="catogary-title">Emergency</div>
+                        <div className="catogary-title">Emergency</div>
 
                     </div>
                     <div className="box12">
-                    <div className="catogary-title">Schools & colleges</div>
+                        <div className="catogary-title">Schools & colleges</div>
 
                     </div>
                     <div className="box13">
-                    <div className="catogary-title">Cultural programs</div>
+                        <div className="catogary-title">Cultural programs</div>
 
                     </div>
                     <div className="box14">
-                    <div className="catogary-title">Sports and Equipment</div>
+                        <div className="catogary-title">Sports and Equipment</div>
                     </div>
                     <div className="box15">
                         <div className="box16"><HiOutlineDotsHorizontal className="dots" /></div>
                     </div>
                 </div>
             </div>
+            <footer className="footer-section">
+                <nav>
+                    <div className="footer-item">
+                    <FiHome className="Home-icon" />
+                    <div className="Home">Home</div>
+                    </div>
+                    <div className="footer-item">
+                    <IoSearchSharp className="Search-icon"/>
+                    <div className="Search">Search</div>
+                    </div>
+                    <div className="footer-item">
+                    <FiPlusCircle className="addjoin-icon"/>
+                    <div className="addjoin">Add/Join</div>
+                    </div>
+                    <div className="footer-item">
+                    <AiOutlineBulb className="alerts-icon"/>
+                    <div className="alerts">Alerts</div>
+                    </div>
+                </nav>
+
+            </footer>
 
         </>
 
