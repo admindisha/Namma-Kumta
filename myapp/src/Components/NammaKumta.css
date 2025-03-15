@@ -103,14 +103,14 @@
 }
 .bottom-row{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-start;
-  padding-left: 40px;
+  padding: 10px;
+  overflow-x: auto;
   gap: 15px;
 }
 .box1{
-  display: flex;
-  align-items: center;
+  position: relative;
   justify-content: center;
   height: 100px;
   width: 100px;
@@ -125,8 +125,7 @@
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .box2{
-  display: flex;
-  align-items: center;
+  position: relative;
   justify-content: center;
   height: 100px;
   width: 100px;
@@ -141,84 +140,316 @@
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .box3{
-  display: flex;
+  position: relative;
+  justify-content: center;
   height: 100px;
   width: 100px;
   border: 1px solid black;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box3:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .box4{
-  display: flex;
+  position: relative;
+  justify-content: center;
   height: 100px;
-  width: 100px;
+  width: 110px;
   border: 1px solid black;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://t4.ftcdn.net/jpg/00/61/06/27/360_F_61062796_NF87GPnWV0fQ2LhoYNlyjev0PocRwZj9.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box4:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .box5{
-  display: flex;
+  position: relative;
+  justify-content: center;
   height: 100px;
-  width: 100px;
+  width: 110px;
   border: 1px solid black;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box5:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .box6{
+  position: relative;
+  justify-content: center;
   height: 100px;
-  width: 100px;
+  width: 110px;
   border: 1px solid black;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://images.otstatic.com/prod/24065351/1/large.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box6:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .box7{
+  position: relative;
+  justify-content: center;
   height: 100px;
-  width: 100px;
+  width: 110px;
   border: 1px solid black;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://img.freepik.com/premium-photo/car-rental-k%E2%80%A6-hand-rent-car-from-rental-agency_294383-9193.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box7:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .box8{
+  position: relative;
+  justify-content: center;
   height: 100px;
-  width: 100px;
+  width: 110px;
   border: 1px solid black;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://i.pinimg.com/236x/86/04/60/8604607fbce1a7515824ada352bdbd51.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box8:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .box9{
+  position: relative;
+  justify-content: center;
   height: 100px;
-  width: 100px;
+  width: 110px;
   border: 1px solid black;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://cdn.pixabay.com/photo/2020/11/20/17/15/local-store-5762254_640.png");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box9:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .box10{
+  position: relative;
+  justify-content: center;
   height: 100px;
-  width: 100px;
+  width: 110px;
   border: 1px solid black;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://blog.renovationfind.com/wp-content/uploads/2023/12/Handyman-Services-800x450-2.jpg.avif");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box10:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .box11{
+  position: relative;
+  justify-content: center;
   height: 100px;
-  width: 100px;
+  width: 110px;
   border: 1px solid black;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box11:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .box12{
+  position: relative;
+  justify-content: center;
   height: 100px;
-  width: 100px;
+  width: 110px;
   border: 1px solid black;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box12:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .box13{
+  position: relative;
+  justify-content: center;
   height: 100px;
-  width: 100px;
+  width: 110px;
   border: 1px solid black;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box13:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .box14{
+  position: relative;
+  justify-content: center;
   height: 100px;
-  width: 100px;
+  width: 110px;
   border: 1px solid black;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box14:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .box15{
+  position: flex;
+  justify-content: center;
   height: 100px;
-  width: 100px;
+  width: 110px;
   border: 1px solid black;
+  background-color: gray;
+  opacity: 65%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box15:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.box16 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightslategray;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: 25px;
 }
 .box1 p{
-  padding-top: 56px;
+  padding-top: 57px;
   text-align: center;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 700;
   color: white;
 }
 .box2 p{
-  padding-top: 56px;
+  padding-top: 58px;
   text-align: center;
-  font-size: 17px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.box3 p{
+  padding-top: 57px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.box4 p{
+  padding-top: 57px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.box5 p{
+  padding-top: 57px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.box6 p{
+  padding-top: 57px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.box7 p{
+  padding-top: 57px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.box8 p{
+  padding-top: 45px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.box9 p{
+  padding-top: 57px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.box10 p{
+  padding-top: 57px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.box11 p{
+  padding-top: 57px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.box12 p{
+  padding-top: 57px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.box13 p{
+  padding-top: 57px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.box14 p{
+  padding-top: 57px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.box15 p{
+  padding-top: 57px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.dots{
+  padding-top: 15px;
   color: white;
 }

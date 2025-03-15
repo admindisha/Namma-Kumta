@@ -5,6 +5,7 @@ import { LuUserRound } from "react-icons/lu";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { IoIosSearch } from "react-icons/io";
 import { IoMicOutline } from "react-icons/io5";
+import { HiOutlineDotsHorizontal } from "react-icons/hi";
 
 
 
@@ -38,21 +39,39 @@ const NammaKumta = () => {
                     <div className="box2">
                         <p>Departments</p>
                     </div>
-                    <div className="box3"></div>
-                    <div className="box4"></div>
-                    <div className="box5"></div>
-                    <div className="box6"></div>
-                    <div className="box7"></div>
-                    <div className="box8"></div>
-                    <div className="box9"></div>
-                    <div className="box10"></div>
+                    <div className="box3">
+                        <p>Assocations</p>
+                    </div>
+                    <div className="box4">
+                        <p>Banks</p>
+                    </div>
+                    <div className="box5">
+                        <p>Tourism</p>
+                    </div>
+                    <div className="box6">
+                        <p>Hotels</p>
+                    </div>
+                    <div className="box7">
+                        <p>Rent Vehicles</p>
+                    </div>
+                    <div className="box8">
+                        <p>Wedding Planning</p>
+                    </div>
+                    <div className="box9">
+                        <p>Shops</p>
+                    </div>
+                    <div className="box10">
+                        <p>Services</p>
+                    </div>
                 </div>
                 <div className="bottom-row">
                     <div className="box11"></div>
                     <div className="box12"></div>
                     <div className="box13"></div>
                     <div className="box14"></div>
-                    <div className="box15"></div>
+                    <div className="box15">
+                        <div className="box16"><HiOutlineDotsHorizontal className="dots"/></div>
+                    </div>
                 </div>
             </div>
 
