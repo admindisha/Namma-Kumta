@@ -103,9 +103,10 @@
 }
 .bottom-row{
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: flex-start;
-  padding: 10px;
+  padding : 9px;
+  padding-left: 4px;
   overflow-x: auto;
   gap: 15px;
 }
@@ -113,7 +114,7 @@
   position: relative;
   justify-content: center;
   height: 100px;
-  width: 100px;
+  width: 110px;
   border: 1px solid black;
   background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://pics.craiyon.com/2024-09-06/QDWqBYpMTZ-vJVFdzuN7GA.webp");
   background-size: cover;
@@ -128,7 +129,7 @@
   position: relative;
   justify-content: center;
   height: 100px;
-  width: 100px;
+  width: 110px;
   border: 1px solid black;
   background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://cbin.b-cdn.net/img/GO/Government-of-India01_9CFDJ_800x582.jpeg");
   background-size: cover;
@@ -143,7 +144,7 @@
   position: relative;
   justify-content: center;
   height: 100px;
-  width: 100px;
+  width: 110px;
   border: 1px solid black;
   background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg");
   background-size: cover;
@@ -218,7 +219,7 @@
   position: relative;
   justify-content: center;
   height: 100px;
-  width: 110px;
+  width: 100px;
   border: 1px solid black;
   background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://i.pinimg.com/236x/86/04/60/8604607fbce1a7515824ada352bdbd51.jpg");
   background-size: cover;
@@ -233,7 +234,7 @@
   position: relative;
   justify-content: center;
   height: 100px;
-  width: 110px;
+  width: 100px;
   border: 1px solid black;
   background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://cdn.pixabay.com/photo/2020/11/20/17/15/local-store-5762254_640.png");
   background-size: cover;
@@ -248,7 +249,7 @@
   position: relative;
   justify-content: center;
   height: 100px;
-  width: 110px;
+  width: 100px;
   border: 1px solid black;
   background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://blog.renovationfind.com/wp-content/uploads/2023/12/Handyman-Services-800x450-2.jpg.avif");
   background-size: cover;
@@ -265,7 +266,7 @@
   height: 100px;
   width: 110px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("");
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://media.istockphoto.com/id/498429644/vector/empty-red-box-with-in-case-of-emergency.jpg?s=612x612&w=0&k=20&c=MADP-BKUiwEHcm959qrO1et81GU9FwskpAk0ALniXxA=");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -280,7 +281,7 @@
   height: 100px;
   width: 110px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("");
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://img.freepik.com/premium-photo/schoolboys-near-school-building-india_78361-13841.jpg");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -293,9 +294,9 @@
   position: relative;
   justify-content: center;
   height: 100px;
-  width: 110px;
+  width: 100px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("");
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://media.istockphoto.com/id/1648171369/photo/yakshagana-artist-showing-happiness.jpg?b=1&s=612x612&w=0&k=20&c=mh9VdX2Kc9mCLWLkCv5k16pgTcaJnsfVwP4QK9nS8Ek=");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -308,9 +309,9 @@
   position: relative;
   justify-content: center;
   height: 100px;
-  width: 110px;
+  width: 100px;
   border: 1px solid black;
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("");
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%),url("https://media.istockphoto.com/id/2002620668/photo/female-runner-in-a-park-stock-photo.jpg?b=1&s=612x612&w=0&k=20&c=fKpqpuW7gGl0lZTyQknr-e9TDL2-M3rfOXsNu9hSowI=");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -337,6 +338,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid white;
   background-color: lightslategray;
   width: 50px;
   height: 50px;
@@ -344,112 +346,19 @@
   margin-left: 30px;
   margin-top: 25px;
 }
-.box1 p{
-  padding-top: 57px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-}
-.box2 p{
-  padding-top: 58px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-}
-.box3 p{
-  padding-top: 57px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-}
-.box4 p{
-  padding-top: 57px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-}
-.box5 p{
-  padding-top: 57px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-}
-.box6 p{
-  padding-top: 57px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-}
-.box7 p{
-  padding-top: 57px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-}
-.box8 p{
-  padding-top: 45px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-}
-.box9 p{
-  padding-top: 57px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-}
-.box10 p{
-  padding-top: 57px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-}
-.box11 p{
-  padding-top: 57px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-}
-.box12 p{
-  padding-top: 57px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-}
-.box13 p{
-  padding-top: 57px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-}
-.box14 p{
-  padding-top: 57px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-}
-.box15 p{
-  padding-top: 57px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-}
 .dots{
   padding-top: 15px;
   color: white;
+}
+.catogary-title{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
 }

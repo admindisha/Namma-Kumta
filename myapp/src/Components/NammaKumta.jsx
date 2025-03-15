@@ -34,43 +34,54 @@ const NammaKumta = () => {
             <div className="boxes">
                 <div className="top-row">
                     <div className="box1">
-                        <p>Hospitals</p>
+                        <div className="catogary-title">Hospitals</div>
                     </div>
                     <div className="box2">
-                        <p>Departments</p>
+                        <div className="catogary-title">Departments</div>
                     </div>
                     <div className="box3">
-                        <p>Assocations</p>
+                        <div className="catogary-title">Assocations</div>
                     </div>
                     <div className="box4">
-                        <p>Banks</p>
+                        <div className="catogary-title">Banks</div>
                     </div>
                     <div className="box5">
-                        <p>Tourism</p>
+                        <div className="catogary-title">Tourism</div>
                     </div>
                     <div className="box6">
-                        <p>Hotels</p>
+                        <div className="catogary-title">Hotels</div>
                     </div>
                     <div className="box7">
-                        <p>Rent Vehicles</p>
+                        <div className="catogary-title">Rent vehicals</div>
                     </div>
                     <div className="box8">
-                        <p>Wedding Planning</p>
+                        <div className="catogary-title">Wedding planning</div>
                     </div>
                     <div className="box9">
-                        <p>Shops</p>
+                    <div className="catogary-title">Shops</div>
                     </div>
                     <div className="box10">
-                        <p>Services</p>
+                    <div className="catogary-title">services</div>
                     </div>
                 </div>
                 <div className="bottom-row">
-                    <div className="box11"></div>
-                    <div className="box12"></div>
-                    <div className="box13"></div>
-                    <div className="box14"></div>
+                    <div className="box11">
+                    <div className="catogary-title">Emergency</div>
+
+                    </div>
+                    <div className="box12">
+                    <div className="catogary-title">Schools & colleges</div>
+
+                    </div>
+                    <div className="box13">
+                    <div className="catogary-title">Cultural programs</div>
+
+                    </div>
+                    <div className="box14">
+                    <div className="catogary-title">Sports and Equipment</div>
+                    </div>
                     <div className="box15">
-                        <div className="box16"><HiOutlineDotsHorizontal className="dots"/></div>
+                        <div className="box16"><HiOutlineDotsHorizontal className="dots" /></div>
                     </div>
                 </div>
             </div>
